@@ -1,0 +1,14 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- .
+- location:
+    git: git@github.com:drhodes/rawr.git
+    commit: d86bb098243ec1332ff2a1896cf3bf4e99218b39
+
+extra-deps:
+- hashids-1.0.2.3
+- parsec3-numbers-0.1.0
+- rawr-0.1.0
+
+resolver: lts-9.4
